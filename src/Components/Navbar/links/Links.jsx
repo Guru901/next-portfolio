@@ -1,7 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import styles from "./style.module.scss";
+import { usePathname } from "next/navigation";
 
 const Links = ({ close }) => {
+  const pathName = usePathname();
+
   const links = [
     {
       title: "Home",
@@ -24,7 +29,12 @@ const Links = ({ close }) => {
   return (
     <div className={styles.links}>
       {links.map((x) => (
-        <Link key={x.title} href={x.path} onClick={close}>
+        <Link
+          key={x.title}
+          href={x.path}
+          onClick={close}
+          className={pathName === x.path && styles.active}
+        >
           {x.title}
         </Link>
       ))}

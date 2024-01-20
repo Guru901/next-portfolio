@@ -1,0 +1,59 @@
+@font-face {
+  font-family: gilroy;
+  src: url(./font/Gilroy-Medium.e7e7c091.ttf);
+}
+
+.heroMain {
+  height: 100vh;
+  flex-direction: column;
+  max-height: 65rem;
+  position: relative;
+  display: block;
+  .h1Container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    pointer-events: none;
+    top: 0;
+    overflow: hidden;
+  }
+  .firH1,
+  .secH1 {
+    font-size: 18rem;
+    color: #111;
+    font-family: gilroy;
+    z-index: 98;
+    font-weight: 600;
+    position: absolute;
+    bottom: -20%;
+  }
+  .firH1 {
+    margin-left: -18rem;
+  }
+  .secH1 {
+    bottom: -45%;
+  }
+
+  span {
+    font-size: 15rem;
+    color: #14cf93;
+    font-style: italic;
+  }
+}
+
+@media (max-width: 1310px) {
+  .heroMain {
+    h1 {
+      font-size: 8vw;
+    }
+    .firstH1 {
+      width: 100vw;
+    }
+    span {
+      font-size: 8vw;
+    }
+  }
+}
