@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+$accent: #14cf93;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+  font-size: 10px;
+  overflow-x: hidden;
+}
+
+*::selection {
+  background: $accent;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px; /* Rounded corners for the thumb */
+  background-color: $accent; /* Color of the track (the area behind the thumb) */
+}
+
+html,
+body {
+  width: 100%;
+  background: #fcfaf8;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.absoluteCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mousefollower {
+  color: #000 !important;
+}
+
+.box {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: #eb306c;
+  z-index: 9999999999;
+  pointer-events: none;
+  position: absolute;
+  display: block;
+  opacity: 0;
+  mix-blend-mode: difference;
+}
+
+.head,
+.head-top,
+.head > span {
+  pointer-events: none;
+  font-size: 14rem;
+  font-weight: 500;
+  overflow: hidden;
+  margin-top: 16rem;
+  text-transform: uppercase;
+  line-height: 15rem;
+}
+.head > span {
+  padding-left: 13rem;
+}
+
+@media (max-width: 768px) {
+  .box {
+    display: none !important;
+  }
+}
+
+#root {
+  display: block;
+  margin: auto;
+}

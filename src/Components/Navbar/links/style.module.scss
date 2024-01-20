@@ -1,0 +1,16 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 18rem;
+  a {
+    font-size: 6.5rem;
+    text-decoration: none;
+    color: #111;
+  }
+}
+
+@media (max-width: 595px) {
+  .links {
+    margin-right: 10rem;
+  }
+}
