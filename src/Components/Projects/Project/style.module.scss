@@ -37,3 +37,41 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .projectCard {
+    gap: 3rem !important;
+    .projectImg {
+      width: 40vw !important;
+      height: 60vh !important;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .projectCard {
+    flex-direction: column;
+    .projectImg {
+      width: 80vw !important;
+    }
+    .linkCircle {
+      width: 40px !important;
+      height: 40px !important;
+      overflow: hidden;
+      svg {
+        width: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .pdes {
+    h1 {
+      font-size: 2rem !important;
+    }
+    p {
+      font-size: 1.4rem !important;
+    }
+  }
+}
