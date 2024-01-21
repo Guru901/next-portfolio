@@ -16,7 +16,7 @@ const Footer = () => {
       <div className={`${styles.extras} absoluteCenter`}>
         <p>About Me</p>
         <p>gurvinder@gurvinder.com</p>
-        <p>&copy;2023</p>
+        <p>2023</p>
       </div>
     </footer>
   );
