@@ -1,0 +1,25 @@
+.head {
+  height: 39.5rem;
+}
+.head,
+.headTop,
+.head > .span {
+  pointer-events: none;
+  font-size: 18rem;
+  font-weight: 500;
+  overflow: hidden;
+  margin-top: 5rem;
+  line-height: 6rem;
+  text-transform: uppercase;
+}
+.head > .span {
+  padding-left: 13rem;
+}
+
+.downCircle {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #a5a3a3;
+  border-radius: 50%;
+  margin-left: 4rem;
+}

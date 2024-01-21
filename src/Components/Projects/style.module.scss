@@ -1,0 +1,21 @@
+.projects {
+  width: 100%;
+  flex-direction: column;
+  gap: 8rem;
+  .ptop {
+    justify-content: space-between;
+    width: 95vw;
+    max-width: 130rem;
+    .headTop {
+      gap: 2rem;
+      margin-top: 0;
+      margin-bottom: -15rem;
+      margin-left: 0;
+    }
+    a {
+      font-size: 1.6rem;
+      color: gray;
+      padding-top: 30%;
+    }
+  }
+}

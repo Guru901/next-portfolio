@@ -4,6 +4,7 @@ import Hero from "@/Components/Hero/hero";
 import Loader from "@/Components/Loader/loader";
 import React, { useEffect } from "react";
 import gsap, { Expo } from "gsap";
+import Projects from "@/Components/Projects/project";
 
 const Home = () => {
   useEffect(() => {
@@ -25,6 +26,7 @@ const Home = () => {
 
       <Loader />
       <Hero />
+      <Projects />
     </div>
   );
 };

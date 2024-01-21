@@ -6,7 +6,6 @@ $accent: #14cf93;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans";
   font-size: 10px;
   overflow-x: hidden;
 }
@@ -58,21 +57,6 @@ body {
   display: block;
   opacity: 0;
   mix-blend-mode: difference;
-}
-
-.head,
-.head-top,
-.head > span {
-  pointer-events: none;
-  font-size: 14rem;
-  font-weight: 500;
-  overflow: hidden;
-  margin-top: 16rem;
-  text-transform: uppercase;
-  line-height: 15rem;
-}
-.head > span {
-  padding-left: 13rem;
 }
 
 @media (max-width: 768px) {

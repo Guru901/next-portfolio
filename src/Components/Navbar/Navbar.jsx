@@ -27,7 +27,6 @@ const Navbar = () => {
     btnRef.current.innerHTML = "Close";
   };
   const handleClick = (e) => {
-    console.log();
     if (e.target.innerHTML === "Close") {
       navClose();
     } else if (e.target.innerHTML === "Menu") {
@@ -52,7 +51,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className={style.menu}>
-        <Link href="/" className={style.title} onClick={handleLinkClick}>
+        <Link href="/" className={style.title} onClick={() => navClose()}>
           Gurvinder Singh
         </Link>
         <button

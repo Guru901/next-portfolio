@@ -33,7 +33,7 @@ const Links = ({ close }) => {
           key={x.title}
           href={x.path}
           onClick={close}
-          className={pathName === x.path && styles.active}
+          className={pathName === x.path ? styles.active : null}
         >
           {x.title}
         </Link>
