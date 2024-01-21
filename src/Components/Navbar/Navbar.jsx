@@ -21,7 +21,7 @@ const Navbar = () => {
   const navOpen = () => {
     gsap.to(navRef.current, {
       duration: 0.75,
-      height: "100vh",
+      height: "100svh",
       ease: Power1,
     });
     btnRef.current.innerHTML = "Close";
