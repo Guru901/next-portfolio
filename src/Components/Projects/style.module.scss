@@ -24,8 +24,11 @@
   .ptop {
     width: 100vw !important;
     padding-right: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2rem;
     a {
-      padding-top: 50% !important;
+      padding-top: 1rem !important;
     }
   }
 }

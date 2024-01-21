@@ -5,20 +5,22 @@ import Btn from "../AnimBtn/Btn";
 
 const Footer = () => {
   return (
-    <footer className={`${styles.footer} absoluteCenter`}>
-      <h2 className={styles.footerHead}>
-        Sooooooooooooooo... 👀 Are you ready?
-      </h2>
-      <div className={`${styles.h1} absoluteCenter`}>
-        <h1>Lets Create Something together</h1>
-      </div>
-      <Btn title={"Let's Connect"} classNamee={"footerBtn"} />
-      <div className={`${styles.extras} absoluteCenter`}>
-        <p>About Me</p>
-        <p>gurvinder@gurvinder.com</p>
-        <p>2023</p>
-      </div>
-    </footer>
+    <div className={styles.footerContainer}>
+      <footer className={`${styles.footer} absoluteCenter`}>
+        <h2 className={styles.footerHead}>
+          Sooooooooooooooo... 👀 Are you ready?
+        </h2>
+        <div className={`${styles.h1} absoluteCenter`}>
+          <h1>Lets Create Something together</h1>
+        </div>
+        <Btn title={"Let's Connect"} classNamee={"footerBtn"} />
+        <div className={`${styles.extras} absoluteCenter`}>
+          <p>About Me</p>
+          <p>gurvinder@gurvinder.com</p>
+          <p>2023</p>
+        </div>
+      </footer>
+    </div>
   );
 };
 

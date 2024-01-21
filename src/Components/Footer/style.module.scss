@@ -1,9 +1,10 @@
 .footer {
   height: 110svh;
+  max-height: 100rem;
+  // max-width: 136rem;
   position: relative;
   background: #ededed;
   border-radius: 2rem;
-  display: flex;
   flex-direction: column;
   padding-bottom: 1rem;
 

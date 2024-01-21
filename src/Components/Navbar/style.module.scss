@@ -12,7 +12,6 @@
     z-index: 99;
     overflow: hidden;
     justify-content: space-between;
-
     .nleft {
       margin-left: 15rem;
       video {
@@ -71,5 +70,8 @@
   .nright {
     margin-left: 4rem;
     position: absolute;
+  }
+  .menu {
+    padding: 2rem 1rem !important;
   }
 }

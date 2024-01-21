@@ -16,7 +16,7 @@
       border-radius: 50%;
       height: 60px;
       background: #fff;
-      z-index: 99;
+      z-index: 98;
       bottom: 0;
       right: 0;
       margin: 10rem 2rem;
@@ -52,7 +52,8 @@
   .projectCard {
     flex-direction: column;
     .projectImg {
-      width: 80vw !important;
+      width: 95vw !important;
+      height: 50vh !important;
     }
     .linkCircle {
       width: 40px !important;
