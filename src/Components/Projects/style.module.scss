@@ -21,4 +21,11 @@
 }
 
 @media (max-width: 900px) {
+  .ptop {
+    width: 100vw !important;
+    padding-right: 1rem;
+    a {
+      padding-top: 50% !important;
+    }
+  }
 }

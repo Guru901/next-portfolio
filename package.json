@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "net": "next dev --host 0.0.0.0"
   },
   "dependencies": {
     "@studio-freight/lenis": "^1.0.34",

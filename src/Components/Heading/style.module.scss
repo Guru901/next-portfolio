@@ -49,11 +49,12 @@
     height: 25vh !important;
   }
   .downCircle {
-    width: 60px;
-    height: 60px;
+    width: 60px !important;
+    height: 60px !important;
+    margin-left: 0;
     svg {
-      width: 30px;
-      height: 30px;
+      width: 30px !important;
+      height: 30px !important;
     }
   }
 }
@@ -62,9 +63,17 @@
   .head,
   .headTop,
   .head > .span {
-    line-height: 1vh;
+    line-height: 1.5vh;
   }
   .head {
-    height: 23rem !important;
+    height: 15rem !important;
+  }
+  .downCircle {
+    width: 50px !important;
+    height: 50px !important;
+    svg {
+      width: 20px !important;
+      height: 20px !important;
+    }
   }
 }

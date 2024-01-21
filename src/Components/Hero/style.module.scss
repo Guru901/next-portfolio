@@ -46,14 +46,58 @@
 
 @media (max-width: 1310px) {
   .heroMain {
-    h1 {
-      font-size: 8vw;
+    .firH1,
+    .secH1 {
+      font-size: 13vw;
     }
     .firstH1 {
       width: 100vw;
     }
     span {
+      font-size: 13vw;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .heroMain {
+    h1 {
       font-size: 8vw;
+    }
+    .firH1,
+    .secH1 {
+      width: 100vw;
+      text-align: center;
+      margin: 0;
+      bottom: 10%;
+    }
+    .secH1 {
+      bottom: -10%;
+    }
+    span {
+      font-size: 13vw;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .heroMain {
+    height: 50vh;
+    h1 {
+      font-size: 15vw !important;
+    }
+    .firH1,
+    .secH1 {
+      width: 100vw;
+      text-align: center;
+      margin: 0;
+      bottom: 10%;
+    }
+    .secH1 {
+      bottom: -5%;
+    }
+    span {
+      font-size: 11vw;
     }
   }
 }
