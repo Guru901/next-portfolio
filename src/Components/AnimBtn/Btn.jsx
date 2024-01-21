@@ -1,8 +1,10 @@
 import React from "react";
 import styles from "./style.module.scss";
 
-const Btn = ({ title }) => {
-  return <button className={styles.btn}>{title}</button>;
+const Btn = ({ title, classNamee }) => {
+  return (
+    <button className={`${styles.btn} ${styles.classNamee}`}>{title}</button>
+  );
 };
 
 export default Btn;

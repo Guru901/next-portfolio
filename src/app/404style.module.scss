@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-left: 5rem;
+  padding-bottom: 5rem;
+  .notFound {
+    font-size: 50rem;
+    line-height: 35rem;
+    overflow: hidden;
+    -webkit-text-stroke: 1px #28464d;
+    -webkit-text-fill-color: transparent;
+  }
+  .notFoundTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100rem;
+    gap: 2rem;
+    .notFoundHead {
+      color: #28464d;
+      font-size: 4.2rem;
+    }
+    .notFoundPara {
+      color: #28464d;
+      font-size: 1.8rem;
+    }
+  }
+}
