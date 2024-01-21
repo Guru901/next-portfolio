@@ -5,10 +5,13 @@ import Loader from "@/Components/Loader/loader";
 import Projects from "@/Components/Projects/project";
 import smoothScroll from "@/Components/SmoothScroll";
 import MouseFollower from "@/Components/MouseFollower";
+import { useEffect } from "react";
 
 const Home = () => {
-  MouseFollower();
-  smoothScroll();
+  useEffect(() => {
+    MouseFollower();
+    smoothScroll();
+  }, []);
 
   return (
     <div>
