@@ -1,53 +1,57 @@
-.nav {
-  background: #ff5f38;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 0vh;
-  width: 100vw;
-  z-index: 99;
-  overflow: hidden;
-  justify-content: space-between;
+.navContainer {
+  max-width: 136rem;
+  display: block;
+  margin: auto;
+  .nav {
+    background: #ff5f38;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0vh;
+    width: 100vw;
+    z-index: 99;
+    overflow: hidden;
+    justify-content: space-between;
 
-  .nleft {
-    margin-left: 15rem;
-    video {
-      width: 45rem;
-      height: 75vh;
-      object-fit: cover;
+    .nleft {
+      margin-left: 15rem;
+      video {
+        width: 45rem;
+        height: 75vh;
+        object-fit: cover;
+      }
+    }
+
+    .nright {
     }
   }
+  .menu {
+    align-items: center;
+    display: flex;
+    padding: 2rem 3rem;
+    margin-bottom: 3rem;
+    height: 7rem;
+    justify-content: space-between;
 
-  .nright {
+    .title {
+      color: #111;
+      font-size: 2.2rem;
+      font-weight: 800;
+      text-decoration: none;
+      z-index: 99;
+    }
+
+    .menuBtn {
+      background: none;
+      border: none;
+      color: #111;
+      cursor: pointer;
+      font-size: 1.6rem;
+      text-decoration: underline;
+      z-index: 99;
+    }
   }
 }
-.menu {
-  align-items: center;
-  display: flex;
-  padding: 2rem 3rem;
-  margin-bottom: 3rem;
-  height: 7rem;
-  justify-content: space-between;
-
-  .title {
-    color: #111;
-    font-size: 2.2rem;
-    font-weight: 800;
-    text-decoration: none;
-    z-index: 99;
-  }
-
-  .menuBtn {
-    background: none;
-    border: none;
-    color: #111;
-    cursor: pointer;
-    font-size: 1.6rem;
-    text-decoration: underline;
-    z-index: 99;
-  }
-}
-
 @media (max-width: 1150px) {
   .nav {
     .nleft {

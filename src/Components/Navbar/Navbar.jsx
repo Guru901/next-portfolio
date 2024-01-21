@@ -40,7 +40,7 @@ const Navbar = () => {
 
   console.log();
   return (
-    <>
+    <div className={style.navContainer}>
       <div ref={navRef} className={`${style.nav} absoluteCenter`}>
         <div className={style.nleft}>
           <video src="vid.mp4" autoPlay loop muted></video>
@@ -62,7 +62,7 @@ const Navbar = () => {
           Menu
         </button>
       </div>
-    </>
+    </div>
   );
 };
 
