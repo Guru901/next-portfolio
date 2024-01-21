@@ -2,28 +2,17 @@
 
 import Hero from "@/Components/Hero/hero";
 import Loader from "@/Components/Loader/loader";
-import React, { useEffect } from "react";
-import gsap, { Expo } from "gsap";
 import Projects from "@/Components/Projects/project";
+import smoothScroll from "@/Components/SmoothScroll";
+import MouseFollower from "@/Components/MouseFollower";
 
 const Home = () => {
-  useEffect(() => {
-    const box = document.querySelector(".box");
-    document.addEventListener("mousemove", function (dets) {
-      gsap.to(box, {
-        x: dets.pageX - 5,
-        y: dets.pageY - 105,
-        duration: 0.5,
-        ease: Expo,
-        opacity: 1,
-      });
-    });
-  }, []);
+  MouseFollower();
+  smoothScroll();
 
   return (
     <div>
       <div className="box"></div>
-
       <Loader />
       <Hero />
       <Projects />

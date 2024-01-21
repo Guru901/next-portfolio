@@ -1,0 +1,57 @@
+.footer {
+  height: 110vh;
+  position: relative;
+  background: #ededed;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+
+  .footerHead {
+    margin-bottom: 30rem;
+    font-size: 3rem;
+  }
+
+  .h1 {
+    width: max-content;
+    position: absolute;
+    transform: translateX(-85rem);
+    pointer-events: none;
+    margin-bottom: 10rem;
+
+    h1 {
+      font-size: 18rem;
+    }
+  }
+
+  button {
+    width: 45rem;
+    height: 10rem;
+    font-size: 3rem !important;
+  }
+
+  .extras {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 5rem;
+
+    p {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .extras {
+    padding: 0 1rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .extras {
+    padding: 0 !important;
+  }
+}
