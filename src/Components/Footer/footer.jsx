@@ -10,7 +10,7 @@ const Footer = () => {
         Sooooooooooooooo... 👀 Are you ready?
       </h2>
       <div className={`${styles.h1} absoluteCenter`}>
-        <h1>Let's Create Something together</h1>
+        <h1>Lets Create Something together</h1>
       </div>
       <Btn title={"Let's Connect"} classNamee={"footerBtn"} />
       <div className={`${styles.extras} absoluteCenter`}>
