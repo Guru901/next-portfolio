@@ -23,3 +23,48 @@
   border-radius: 50%;
   margin-left: 4rem;
 }
+
+@media (max-width: 1000px) {
+  .head,
+  .headTop,
+  .head > .span {
+    font-size: 13vw;
+    line-height: 3vh;
+  }
+  .span {
+    padding-left: 14vw !important;
+  }
+  .head {
+    height: 39vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .head,
+  .headTop,
+  .head > .span {
+    line-height: 3vh;
+  }
+  .head {
+    height: 25vh !important;
+  }
+  .downCircle {
+    width: 60px;
+    height: 60px;
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .head,
+  .headTop,
+  .head > .span {
+    line-height: 1vh;
+  }
+  .head {
+    height: 23rem !important;
+  }
+}
