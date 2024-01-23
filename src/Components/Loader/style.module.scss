@@ -11,6 +11,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    .headings {
+      color: #14cf93;
+      font-size: 6rem;
+      opacity: 0;
+      position: absolute;
+    }
   }
   #green {
     bottom: 0;
