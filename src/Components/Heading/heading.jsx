@@ -3,7 +3,7 @@ import styles from "./style.module.scss";
 
 const Heading = ({ top, bottom }) => {
   return (
-    <div>
+    <div className={styles.headingTop}>
       <h1 className={styles.head}>
         <div className={`${styles.headTop} absoluteCenter`}>
           {top}
@@ -21,7 +21,7 @@ const Heading = ({ top, bottom }) => {
           </div>
         </div>
         <br />
-        <span className={styles.span}>{bottom}</span>
+        <span className={`${styles.span} `}>{bottom}</span>
       </h1>
     </div>
   );

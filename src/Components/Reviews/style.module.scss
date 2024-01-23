@@ -1,0 +1,59 @@
+.rs {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, 2fr);
+  column-gap: 4rem;
+
+  .r {
+    width: 60rem;
+    height: 55rem;
+    border: 1px solid black;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin-top: 5rem;
+
+    .rtop {
+      width: 100%;
+      height: 9rem;
+      border-bottom: 1px solid black;
+      justify-content: space-between !important;
+      padding: 0 5%;
+      .rimg {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        background: lightblue;
+      }
+
+      .rname {
+        > h1 {
+          font-size: 1.4rem;
+          text-align: center;
+        }
+        > .something {
+          width: 15rem;
+          height: 4rem;
+          border: 1px solid black;
+          border-radius: 80px;
+          margin-top: 0.5rem;
+        }
+      }
+
+      .something > p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .rbottom {
+    width: 100%;
+    height: 47rem;
+    padding: 0 3rem;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    p {
+      font-size: 2.4rem;
+    }
+  }
+}

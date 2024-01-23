@@ -1,29 +1,36 @@
-.head {
-  height: 39.5rem;
-}
-.head,
-.headTop,
-.head > .span {
-  pointer-events: none;
-  font-size: 14rem;
-  font-weight: 500;
-  overflow: hidden;
-  margin-top: 5rem;
-  line-height: 6rem;
-  text-transform: uppercase;
-}
-.head > .span {
-  padding-left: 13rem;
-}
+.headingTop {
+  max-width: fit-content;
 
-.downCircle {
-  width: 120px;
-  height: 120px;
-  border: 2px solid #a5a3a3;
-  border-radius: 50%;
-  margin-left: 4rem;
-}
+  .head {
+    height: 39.5rem;
+    .headTop {
+      margin-right: 18rem;
+    }
+  }
 
+  .head,
+  .headTop,
+  .head > .span {
+    pointer-events: none;
+    font-size: 14rem;
+    font-weight: 500;
+    overflow: hidden;
+    margin-top: 5rem;
+    line-height: 6rem;
+    text-transform: uppercase;
+  }
+  .head > .span {
+    padding-left: 13rem;
+  }
+
+  .downCircle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #a5a3a3;
+    border-radius: 50%;
+    margin-left: 4rem;
+  }
+}
 @media (max-width: 1000px) {
   .head,
   .headTop,
