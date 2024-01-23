@@ -7,7 +7,6 @@
   margin: 0;
   .review {
     width: 60rem;
-    // height: 55rem;
     border: 1px solid black;
     border-radius: 2rem;
     overflow: hidden;
@@ -60,7 +59,6 @@
 @media (max-width: 1300px) {
   .review {
     width: 45vw !important;
-    // height: 75vh !important;
   }
 }
 
@@ -70,12 +68,13 @@
   }
   .review {
     width: 90vw !important;
-    // height: 55vh !important;
   }
 }
 
 @media (max-width: 768px) {
-  .review {
-    // height: 75vh !important;
+  .rbottom {
+    p {
+      font-size: 1.8rem !important;
+    }
   }
 }
