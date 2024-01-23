@@ -6,7 +6,7 @@
   background: none;
   cursor: pointer;
   border-radius: 3px;
-  color: #222;
+  // color: #222;
   border: 1px solid black;
   outline: none;
   transition: color 300ms ease-in-out;
@@ -34,5 +34,5 @@
 
 .btn:hover,
 .btn:focus {
-  color: white;
+  color: #ff5f38;
 }
