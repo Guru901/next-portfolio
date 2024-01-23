@@ -10,20 +10,7 @@ const Review = () => {
       text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente ullam, impedit, cum amet officia similique est illum quae quibusdam maiores? Optio deserunt similique assum incidunt facilis? Molestias saepe ipsam impedit quos repudiandae commodi facilis officia laborum delectus asperiores reprehenderit.",
       key: 1,
     },
-    {
-      title: "Lorem, ipsum.",
-      something: "Something",
-      img: "https://assets-global.website-files.com/650bf8da7566f085fed073f0/652c0c5c7568770d04e4ee5d_quote.svg",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente ullam, impedit, cum amet officia similique est illum quae quibusdam maiores? Optio deserunt similique assum incidunt facilis? Molestias saepe ipsam impedit quos repudiandae commodi facilis officia laborum delectus asperiores reprehenderit.",
-      key: 2,
-    },
-    {
-      title: "Lorem, ipsum.",
-      something: "Something",
-      img: "https://assets-global.website-files.com/650bf8da7566f085fed073f0/652c0c5c7568770d04e4ee5d_quote.svg",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente ullam, impedit, cum amet officia similique est illum quae quibusdam maiores? Optio deserunt similique assum incidunt facilis? Molestias saepe ipsam impedit quos repudiandae commodi facilis officia laborum delectus asperiores reprehenderit.",
-      key: 3,
-    },
+
     {
       title: "Lorem, ipsum.",
       something: "Something",

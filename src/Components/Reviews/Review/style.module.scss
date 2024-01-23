@@ -1,9 +1,14 @@
 .rcontainer {
+  display: grid;
+  width: 100vw;
+  max-width: fit-content;
+  grid-template-columns: repeat(2, 2fr);
+  column-gap: 2rem;
+  margin: 0;
   .review {
     width: 60rem;
-    height: 55rem;
+    // height: 55rem;
     border: 1px solid black;
-    margin-bottom: 5rem;
     border-radius: 2rem;
     overflow: hidden;
     margin-top: 5rem;
@@ -41,13 +46,36 @@
   }
   .rbottom {
     width: 100%;
-    height: 47rem;
-    padding: 0 3rem;
+    padding: 3rem 3rem;
     text-align: left;
     flex-direction: column;
     align-items: flex-start;
+
     p {
       font-size: 2.4rem;
     }
+  }
+}
+
+@media (max-width: 1300px) {
+  .review {
+    width: 45vw !important;
+    // height: 75vh !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .rcontainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .review {
+    width: 90vw !important;
+    // height: 55vh !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .review {
+    // height: 75vh !important;
   }
 }
