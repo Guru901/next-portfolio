@@ -12,7 +12,7 @@ $accent: #14cf93;
 
 *::selection {
   background: $accent;
-  color: #fff;
+  // color: #fff;
 }
 
 ::-webkit-scrollbar {
@@ -68,4 +68,42 @@ body {
 #root {
   display: block;
   margin: auto;
+}
+
+.aniBtn {
+  width: 80vw;
+  max-width: 30rem;
+  height: 7rem;
+  font-size: 3.5rem;
+  background: none;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid black;
+  outline: none;
+  transition: color 300ms ease-in-out;
+  z-index: 1;
+  position: relative;
+}
+.aniBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #000;
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.aniBtn:hover::before,
+.aniBtn:focus::before {
+  transform: scaleX(1);
+}
+
+.aniBtn:hover,
+.aniBtn:focus {
+  color: inherit;
 }

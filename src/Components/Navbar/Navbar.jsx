@@ -1,10 +1,9 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import style from "./style.module.scss";
+import styles from "./style.module.scss";
 import Links from "./links/Links";
 import Link from "next/link";
-import Btn from "../AnimBtn/Btn";
 import gsap, { Power1 } from "gsap";
 
 const Navbar = () => {
@@ -40,22 +39,22 @@ const Navbar = () => {
 
   console.log();
   return (
-    <div className={style.navContainer}>
-      <div ref={navRef} className={`${style.nav} absoluteCenter`}>
-        <div className={style.nleft}>
+    <div className={styles.navContainer}>
+      <div ref={navRef} className={`${styles.nav} absoluteCenter`}>
+        <div className={styles.nleft}>
           <video src="vid.mp4" autoPlay loop muted></video>
         </div>
-        <div className={style.nright}>
+        <div className={styles.nright}>
           <Links close={handleLinkClick} />
-          <Btn title={"Work With Me"} />
+          <button className={`${styles.navBtn} aniBtn`}>Work With Me</button>
         </div>
       </div>
-      <div className={style.menu}>
-        <Link href="/" className={style.title} onClick={() => navClose()}>
+      <div className={styles.menu}>
+        <Link href="/" className={styles.title} onClick={() => navClose()}>
           Gurvinder Singh
         </Link>
         <button
-          className={style.menuBtn}
+          className={styles.menuBtn}
           onClick={(e) => handleClick(e)}
           ref={btnRef}
         >

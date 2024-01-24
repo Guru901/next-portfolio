@@ -22,6 +22,11 @@
     }
 
     .nright {
+      .navBtn {
+        &:hover {
+          color: #ff5f38;
+        }
+      }
     }
   }
   .menu {

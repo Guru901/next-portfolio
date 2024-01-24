@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./404style.module.scss";
-import Btn from "@/Components/AnimBtn/Btn";
 
 const NotFound = () => {
   return (
@@ -17,7 +16,7 @@ const NotFound = () => {
           changed, or is temporarily unavailable.
         </p>
         <Link href={"/"}>
-          <Btn title={"Back to Home"} />
+          <button className={`aniBtn`}>Back to Home</button>
         </Link>
       </div>
     </div>

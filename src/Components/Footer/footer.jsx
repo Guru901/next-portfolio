@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./style.module.scss";
-import Btn from "../AnimBtn/Btn";
 
 const Footer = () => {
   return (
@@ -13,7 +12,7 @@ const Footer = () => {
         <div className={`${styles.h1} absoluteCenter`}>
           <h1>Lets Create Something together</h1>
         </div>
-        <Btn title={"Let's Connect"} classNamee={"footerBtn"} />
+        <button className={`${styles.footerBtn} aniBtn`}>Work With Me</button>
         <div className={`${styles.extras} absoluteCenter`}>
           <p>About Me</p>
           <p>gurvinder@gurvinder.com</p>
