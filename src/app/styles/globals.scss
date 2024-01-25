@@ -12,7 +12,6 @@ $accent: #14cf93;
 
 *::selection {
   background: $accent;
-  // color: #fff;
 }
 
 ::-webkit-scrollbar {
@@ -47,15 +46,13 @@ body {
 }
 
 .box {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
-  background: #eb306c;
+  border: 1px solid #eb306c;
   z-index: 9999999999;
   pointer-events: none;
   position: absolute;
-  display: block;
-  opacity: 0;
   mix-blend-mode: difference;
 }
 

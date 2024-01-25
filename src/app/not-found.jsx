@@ -1,11 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import styles from "./404style.module.scss";
+import styles from "./styles/404style.module.scss";
 
 const NotFound = () => {
   return (
     <div className={styles.container}>
-      {/* <img src="/404Text.png" alt="" className={styles.NotFoundImg} /> */}
       <h1 className={styles.notFound}>404</h1>
       <div className={styles.notFoundTextContainer}>
         <h1 className={styles.notFoundHead}>

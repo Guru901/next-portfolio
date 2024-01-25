@@ -1,5 +1,5 @@
 import { JetBrains_Mono } from "next/font/google";
-import "./globals.scss";
+import "./styles/globals.scss";
 import Navbar from "@/Components/Navbar/Navbar";
 import Footer from "@/Components/Footer/footer";
 

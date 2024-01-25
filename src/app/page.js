@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "./page.module.scss";
+import styles from "./styles/page.module.scss";
 import Hero from "@/Components/Hero/hero";
 import Loader from "@/Components/Loader/loader";
 import Projects from "@/Components/Projects/project";

@@ -11,7 +11,7 @@ const Hero = () => {
   const anim = (prop) => {
     gsap.to(prop, {
       delay: 1.65,
-      y: "-210% ",
+      y: "-235% ",
       duration: 1,
       ease: Expo.easeInOut,
     });
